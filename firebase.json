@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "html-practice-survey",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
