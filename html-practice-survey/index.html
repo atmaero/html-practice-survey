@@ -1,13 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta
-      charset="UTF-8"
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Survey 1.0</title>
     <link href="style.css" rel="stylesheet" />
-    <title>Survey V1.0</title>
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.6.8/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.6.8/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.6.8/firebase-database-compat.js"></script>
+    <script
+      defer
+      src="/__/firebase/9.6.8/firebase-firestore-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.6.8/firebase-functions-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.6.8/firebase-messaging-compat.js"
+    ></script>
+    <script defer src="/__/firebase/9.6.8/firebase-storage-compat.js"></script>
+    <script
+      defer
+      src="/__/firebase/9.6.8/firebase-analytics-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.6.8/firebase-remote-config-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.6.8/firebase-performance-compat.js"
+    ></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
     <script type="module">
       // Import the functions you need from the SDKs you need
       import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
@@ -42,7 +74,6 @@
       const analytics = getAnalytics(app);
     </script>
   </head>
-
   <body>
     <div class="form-survey">
       <h1>SURVEY PRACTICE</h1>
